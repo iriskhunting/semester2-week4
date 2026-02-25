@@ -13,3 +13,15 @@
  6. print the answer appropriately as pointer, character and string
  */ 
 
+#include <stdio.h>
+#include <string.h>
+
+int main( void ) {
+
+    char string[100] = "The quick brown fox jumped over the lazy dog";
+    char substring[100];
+
+
+    return 0;
+}
+

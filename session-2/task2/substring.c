@@ -19,7 +19,14 @@
 int main( void ) {
 
     char string[100] = "The quick brown fox jumped over the lazy dog";
-    char substring[100];
+    char *substring;
+
+    substring = strstr(string, "ump");
+
+    printf("%p\n", substring);
+    printf("%c\n", *substring);
+    printf("%s\n", substring);
+
 
 
     return 0;
